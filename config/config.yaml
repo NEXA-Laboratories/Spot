@@ -1,0 +1,23 @@
+system:
+  wake_word:
+    - "Hey, amigo"
+    - "hey amigo"
+    - "hey amiga"
+    - "hey, amiga"
+  device_id: "nexa_spot_01"
+
+lm_studio:
+  base_url: "http://localhost:1234/v1"
+  model: "llama-3.2-3b-instruct"
+  temperature: 0.4
+  max_tokens: 400
+
+piper_tts:
+  model_path: 'E:\PyCharmProjects\NEXA_Spot\piper\en_US-hfc_female-medium.onnx'
+  config_path: 'E:\PyCharmProjects\NEXA_Spot\piper\en_US-hfc_female-medium.onnx.json'
+  speaker_id: 0
+
+mqtt:
+  broker: "localhost"
+  port: 1883
+  topic_prefix: "nexa/spot"
