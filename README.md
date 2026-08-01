@@ -98,7 +98,7 @@ By default:
 
 Current status:
 
-🟡 Concept & Prototype Phase
+🟡 Closed Beta
 
 The goal of NEXA Spot is to create a fully open-source, privacy-focused smart speaker powered by local AI.
 
