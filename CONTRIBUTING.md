@@ -82,3 +82,140 @@ Create your own fork of the NEXA Spot repository.
 ```bash
 git clone https://github.com/NEXA-Laboratories/Spot.git
 cd Spot
+```
+
+## 3. Create a Branch
+
+Please avoid making changes directly to main.
+
+Create a branch for your work:
+
+```bash
+git checkout -b feature/your-feature
+```
+
+For a bug fix:
+
+```bash
+git checkout -b fix/your-fix
+```
+
+Use a clear branch name describing your changes.
+
+## 4. Make Your Changes
+
+Implement your changes while keeping the project architecture and coding style in mind.
+
+Try to keep commits focused.
+
+For example:
+
+```
+Add Piper voice configuration
+```
+is preferable to:
+
+```
+update stuff
+```
+## 5. Test Your Changes
+
+Before opening a Pull Request, make sure your changes work as expected.
+
+If you add a new feature, test both the new functionality and existing functionality that could be affected.
+
+6. Commit Your Changes
+
+Example:
+
+```bash
+git add .
+git commit -m "Add Piper voice configuration"
+```
+
+Keep commit messages short and descriptive.
+
+7. Push Your Branch
+
+```bash
+git push origin feature/your-feature
+```
+
+## Pull Requests
+
+Once your changes are ready, open a Pull Request against the main branch.
+
+Your Pull Request should explain:
+
+What you changed
+Why you changed it
+How you tested it
+Any limitations or known issues
+
+Example:
+
+```
+## What changed
+
+Added Piper TTS voice configuration.
+
+## Why
+
+Allows users to select different Piper voices.
+
+## Testing
+
+Tested locally with two Piper voices.
+
+## Notes
+
+Additional voice configuration may be added later.
+```
+
+## Pull Request Guidelines
+
+Please:
+
+- Keep Pull Requests focused
+- Explain your changes clearly
+- Test your code before submitting
+- Update documentation when necessary
+- Be respectful during code review
+
+A Pull Request may be requested to be changed before it is merged. This is a normal part of collaborative development.
+
+## Issues
+
+Use GitHub Issues for:
+
+# 🐛 Bug Reports
+
+Something doesn't work as expected.
+
+# 💡 Feature Requests
+
+You have an idea for improving Spot.
+
+# 📚 Documentation
+
+Something is missing, unclear, or incorrect.
+
+Please search existing Issues before creating a duplicate.
+
+## Code of Conduct
+
+Be respectful to other contributors.
+
+NEXA Spot is an open-source project. People with different levels of experience should be able to participate without harassment or hostility.
+
+Technical disagreements are normal.
+
+Personal attacks are not.
+
+## Thank You
+
+Every contribution matters.
+
+Whether you submit a Pull Request, report a bug, improve a sentence in the documentation, or simply test Spot on your hardware — you're helping build the project.
+
+Build openly. Build responsibly.
