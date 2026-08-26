@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="180">
+  <img src="assets/logo.png" width="180" alt="NEXA Spot">
 </p>
 
 <h1 align="center">NEXA Spot</h1>
@@ -10,7 +10,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue">
-  <img src="https://img.shields.io/badge/status-Prototype-orange">
+  <img src="https://img.shields.io/badge/status-prototype-red">
 </p>
 
 **NEXA Spot** is an open-source smart speaker powered by **Amigo**, a privacy-first AI voice assistant.
@@ -98,7 +98,7 @@ By default:
 
 Current status:
 
-🟡 Alpha
+🔴 Prototype
 
 The goal of NEXA Spot is to create a fully open-source, privacy-focused smart speaker powered by local AI.
 
