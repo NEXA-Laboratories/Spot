@@ -103,6 +103,25 @@ Current status:
 The goal of NEXA Spot is to create a fully open-source, privacy-focused smart speaker powered by local AI.
 
 ---
+## Contributing
+
+NEXA Spot is built in the open and welcomes contributions.
+
+You can contribute by:
+
+- Writing code
+- Fixing bugs
+- Improving documentation
+- Adding integrations
+- Improving speech recognition
+- Working on Amigo
+- Testing the project
+- Suggesting features
+
+# Before making a contribution, please read [CONTRIBUTING.md](https://github.com/NEXA-Laboratories/Spot/blob/main/CONTRIBUTING.md).
+---
+
+---
 
 ## Philosophy
 
