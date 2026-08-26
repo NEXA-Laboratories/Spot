@@ -13,8 +13,8 @@ lm_studio:
   max_tokens: 400
 
 piper_tts:
-  model_path: 'E:\PyCharmProjects\NEXA_Spot\piper\en_US-hfc_female-medium.onnx'
-  config_path: 'E:\PyCharmProjects\NEXA_Spot\piper\en_US-hfc_female-medium.onnx.json'
+  model_path: 'your_path_to_tts_model.onnx'
+  config_path: 'your_path_to_tts_model_config.json'
   speaker_id: 0
 
 mqtt:
