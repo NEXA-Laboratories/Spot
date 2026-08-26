@@ -121,8 +121,6 @@ You can contribute by:
 # Before making a contribution, please read [CONTRIBUTING.md](https://github.com/NEXA-Laboratories/Spot/blob/main/CONTRIBUTING.md).
 ---
 
----
-
 ## Philosophy
 
 Technology should be useful, understandable, and respectful of user privacy.
